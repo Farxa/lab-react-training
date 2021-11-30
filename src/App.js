@@ -3,6 +3,7 @@ import './App.css';
 import LikeButton from './componants/LikeButton';
 import ClickablePicture from './componants/ClickablePicture';
 import IdCard from './componants/IdCard';
+import Greetings from './componants/Greetings';
 
 function App(props) {
   return (
@@ -26,6 +27,12 @@ function App(props) {
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+
+      <h4>Iteration 2</h4>
+      <h3>Greetings</h3>
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
+      <Greetings lang="ar">Rahaf</Greetings>
 
       <h4>Iteration 8</h4>
       <h3>LikeButton</h3>
